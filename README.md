@@ -16,10 +16,10 @@
 
  **Requirements**：
 
-- 1.基于相关硬件，分别用**2D 激光SLAM和3D激光的方案**构建场景地图，并完成自主导航等功能。
+- 1.基于相关硬件，分别用**2D 激光SLAM和3D激光的方案** 构建场景地图，并完成自主导航等功能；其中2D激光SLAM算法包括：Gmapping、Karto SLAM、Cartographer。
 - 2.在本仓库上，撰写相关学习、调试、方案以及相关问题文档，并将能实现上述功能的可重复 系统框架 整合到仓库中。
 
-**Device**：松灵TRACER-MINI移动底盘、EPIC-KBS9工控机、Intel Realsense L515、Lidar LDS-E300-E
+**Device**：松灵TRACER-MINI移动底盘、EPIC-KBS9工控机、LDS-E300-E 2D激光雷达、C16-121B 3D激光雷达。
 
 ## Outline
 
@@ -40,9 +40,16 @@
 项目相关硬件如下：
 
 - 1.EPIC-KBS9工控机：[https://github.com/SUSTech-AMASLAB/EPIC-KBS9](https://github.com/SUSTech-AMASLAB/EPIC-KBS9)
-- 2.Autolabor Pro1：待整理
-- 3.Intel Realsense L515激光雷达：[https://github.com/SUSTech-AMASLAB/Intel_Realsense_Device/blob/main/Intel_Realsense_L515.md](https://github.com/SUSTech-AMASLAB/Intel_Realsense_Device/blob/main/Intel_Realsense_L515.md)
+- 2.松灵TRACER-MINI移动底盘：https://github.com/SUSTech-AMASLAB/TRACER-MINI
+- 3.C16-121B 3D激光雷达：https://github.com/SUSTech-AMASLAB/Lidar_C16-121B
 - 4.Lidar LDS-E300-E激光雷达：[https://github.com/SUSTech-AMASLAB/Lidar_LDS-E300-E](https://github.com/SUSTech-AMASLAB/Lidar_LDS-E300-E)
+
+#### 3.相关算法框架学习
+
+- Gmapping：https://wiki.ros.org/slam_gmapping
+- Karto SLAM：https://github.com/tu-darmstadt-ros-pkg/hector_slam
+- Cartographer：https://github.com/cartographer-project/cartographer
+- ROS Navigation：http://wiki.ros.org/navigation
 
 #### 4.项目参考方案实现
 
@@ -50,8 +57,7 @@ Reference :
 
 - 1.**cartographer**2D激光雷达SLAM算法实现 ：[https://github.com/cartographer-project/cartographer](https://github.com/cartographer-project/cartographer)
 - 2.3D激光雷达SLAM实现：
-  - LIO-SAM：[https://github.com/TixiaoShan/LIO-SAM](https://github.com/TixiaoShan/LIO-SAM)
-  - FAST-LIO：[https://github.com/hku-mars/FAST_LIO](https://github.com/hku-mars/FAST_LIO)
+  - LOAM：https://github.com/cuitaixiang/LOAM_NOTED
 
 #### 5.整理相关项目资料
 
@@ -60,3 +66,5 @@ Reference :
 ## File Description
 
 - **README.md**：项目总体文档，
+
+  
