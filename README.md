@@ -2,13 +2,13 @@
 
 > @Brief：该仓库是AMASLAB 基于激光SLAM的移动机器人系统（Lidar SLAM Based Mobile Robot Project）项目文档。
 >
-> @Author：[Li Dong](https://github.com/DoongLi)
+> @Author：[Dong Li](https://github.com/DoongLi)
 >
 > @Date：2022-10-13
 >
 > @Github Link：[https://github.com/SUSTech-AMASLAB/Lidar_SLAM_Based_Mobile_Robot_Project](https://github.com/SUSTech-AMASLAB/Lidar_SLAM_Based_Mobile_Robot_Project)
 >
-> @Project Author：[Li Dong](https://github.com/DoongLi)
+> @Project Author：[Dong Li](https://github.com/DoongLi)
 
 ## Introduction
 
